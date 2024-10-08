@@ -1,0 +1,54 @@
+*{
+    background-color: rgb(150, 194, 196);
+    margin: 0;
+    padding: 0;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo img{
+    border: 1px solid red;
+    border-radius: 50%;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+.newsBlock{
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.newsBlock img{
+    width: 60%;
+    padding: 10px;
+}
+
+.newsBlock p{
+    text-align: justify;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul li{
+    text-decoration: none;
+    padding: 20px 50px 20px 0;
+
+}
